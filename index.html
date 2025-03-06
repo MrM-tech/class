@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Retro Lesson Plan</title>
+    <style>
+        body {
+            background-color: black;
+            color: #FFB000;
+            font-family: "Courier New", monospace;
+            padding: 20px;
+        }
+        .container {
+            border: 2px solid #FFB000;
+            padding: 20px;
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+        .ascii-box {
+            white-space: pre;
+            font-size: 14px;
+            color: #FFB000;
+        }
+        .nav {
+            margin-top: 20px;
+        }
+        .nav a {
+            color: #FFB000;
+            text-decoration: none;
+            font-size: 18px;
+            display: block;
+            margin: 10px 0;
+        }
+        .blink {
+            animation: blink-animation 1s steps(2, start) infinite;
+        }
+        @keyframes blink-animation {
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>[*] Welcome to the Retro Lesson Plan [*]</h1>
+        
+        <div class="ascii-box">
+        _________________________
+       | [ SYSTEM ONLINE ]       |
+       | ----------------------  |
+       | > Booting Home Page...  |
+       | > ███▒▒▒▒▒▒▒▒▒▒ 30%     |
+       | > ██████▒▒▒▒▒▒▒ 60%     |
+       | > ████████████ 100%     |
+       |_________________________|
+        </div>
+        
+        <p>[#] Navigate through the Lesson Plan [#]</p>
+        <div class="nav">
+            <a href="7th.html">[>] 7th Grade Lessons</a>
+          
+        </div>
+        
+        <p class="blink">█</p>
+    </div>
+</body>
+</html>
